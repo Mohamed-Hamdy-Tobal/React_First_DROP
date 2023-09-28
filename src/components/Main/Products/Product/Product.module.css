@@ -1,0 +1,41 @@
+.Product{
+    background: ghostwhite;
+    padding: 18px;
+    position: relative;
+}
+.ProductGold {
+    padding: 18px;
+    position: relative;
+    background-color: hsl(51, 100%, 58%);
+}
+.ProductGold::after {
+    content: "Special";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: teal;
+    padding: 2px 16px;
+    transform: rotate(-50deg) translate(-21px, -1px);
+    border-radius: 62px 62px 0 0;
+}
+.Product img, 
+.ProductGold img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.Product .deleteBtn,
+.ProductGold .deleteBtn {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: tomato;
+    color: #fff;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}

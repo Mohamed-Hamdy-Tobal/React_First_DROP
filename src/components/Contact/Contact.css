@@ -1,0 +1,14 @@
+.contact input {
+    margin: 20px 10px;
+    border: none;
+    padding: 10px;
+    background-color: #fbfbfb;
+    width: 250px;
+}
+.well .well-child {
+    color: #333;
+    font-size: 25px
+}
+.well .well-child span{
+    color: #ff5722;
+}

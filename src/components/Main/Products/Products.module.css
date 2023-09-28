@@ -1,0 +1,24 @@
+.Products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px;
+    background: #7ab1e761;
+    padding: 40px 30px;
+}
+.btnShow {
+    font-size: 40px;
+    padding: 6px 50px;
+    border: none;
+    background: darkcyan;
+    color: #fff;
+    border-radius: 10px;
+    margin: 30px auto 10px;
+    box-shadow: 0 0 5px 1px #999;
+}
+
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
